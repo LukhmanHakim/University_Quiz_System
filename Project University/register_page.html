@@ -1,0 +1,53 @@
+<HTML>
+    
+<head>
+<title>Register Form</title>
+ <link rel="stylesheet" type="text/css" href="../programinfo/css/register_style.css">
+</head>
+    
+    
+<body>
+<form action="register.php" method="post">
+  <div class="container">
+    <h1>Register</h1>
+    <p>Please Fill All This Form in Here .</p>
+    <hr>
+      <label for="userid"><b>Your ID</b></label>
+    <input type="text" placeholder="Your ID" name="userid" id="userid" required>
+
+    <label for="username"><b>Name</b></label>
+    <input type="text" placeholder=" " name="username" id="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+    <label for="psw-repeat"><b>Confirmation Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    
+        <label for="status">Choose your status:</label>
+
+<select id="status" name="status">
+  <option value="admin">Admin</option>
+  <option value="lecturer">Lecturer</option>
+  <option value="student">Student</option>
+</select>
+    <hr>
+<p>Already have an account?</p><a href="index.html">LOGIN PAGE</a>
+
+    <button type="submit" class="registerbtn">SUBMIT</button>
+      
+      
+  </div>
+    
+   <h2>Read Rule Here Before Enter </h2>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  alert("Read rule First!");
+}
+</script>
+</form>
+</body>
+</HTML>

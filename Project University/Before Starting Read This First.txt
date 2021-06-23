@@ -1,0 +1,19 @@
+Tutorial for opening the system :-
+
+Directories.
+
+1. move the folder "Project" to your .../your XAMPP folder (eg. xampp)/htdocs
+
+Host the localhost.
+
+1. First we need to install and open XAMPP
+2. After that start Apache and MySQL
+3. Then click the Admin button next to MySQL
+4. On the "Import" tab, import our database in the 'Database" folder.
+5. The database uploaded must be named as project. If its the same then let it be okay.
+
+Start the system.
+
+1.Open your browser and type in the address tab "localhost/project/"
+
+2.Login using the username and password by using user table in project database

@@ -1,0 +1,48 @@
+<HTML>
+<head>
+ <link rel="stylesheet" type="text/css" href="../programinfo/css/login_style.css">
+    
+    
+    <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+    
+    
+    
+    
+</head>
+<body>
+<form action="login.php" method="post">
+
+  <div class="container">
+    <label for="username"><b>Name</b></label>
+    <input type="text" placeholder="Enter Name" name="username" required>
+<br><br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+      <br><br>
+    <label for="status"><b>Choose your status</b></label>
+      <br><br>
+<select id="status" name="status">
+  <option value="admin">Admin</option>
+  <option value="lecturer">Lecturer</option>
+  <option value="student">Student</option>
+</select>
+<br><br>
+      <p>New to the site?</p><a href="register_page.html">CLICK HERE TO REGISTER</a>
+    <button type="submit">Click Here Login</button>
+   
+  </div>
+</form>
+    
+    function goForward() {
+  window.history.forward()
+}
+
+
+
+
+</body>
+</HTML>
